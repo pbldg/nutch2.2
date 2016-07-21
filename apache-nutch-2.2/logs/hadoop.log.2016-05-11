@@ -1,0 +1,1036 @@
+2016-05-11 00:44:38,637 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-05-11 00:44:38
+2016-05-11 00:44:38,638 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-05-11 00:44:40,770 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-05-11 00:44:40,814 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:44:40,822 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:44:40,844 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-05-11 00:44:41,338 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-11 00:44:41,349 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:44:42,098 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-05-11 00:44:42,098 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-05-11 00:44:42,099 INFO  crawl.InjectorJob - Injector: finished at 2016-05-11 00:44:42, elapsed: 00:00:03
+2016-05-11 00:45:20,437 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-05-11 00:45:20
+2016-05-11 00:45:20,438 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-05-11 00:45:21,519 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-05-11 00:45:21,557 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:45:21,564 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:45:21,582 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-05-11 00:45:22,040 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-11 00:45:22,048 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:45:22,798 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-05-11 00:45:22,798 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-05-11 00:45:22,800 INFO  crawl.InjectorJob - Injector: finished at 2016-05-11 00:45:22, elapsed: 00:00:02
+2016-05-11 00:45:29,856 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-05-11 00:45:29
+2016-05-11 00:45:29,856 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-05-11 00:45:30,895 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-05-11 00:45:30,929 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:45:30,935 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:45:30,951 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-05-11 00:45:31,432 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-11 00:45:31,501 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:45:32,182 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-05-11 00:45:32,182 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-05-11 00:45:32,184 INFO  crawl.InjectorJob - Injector: finished at 2016-05-11 00:45:32, elapsed: 00:00:02
+2016-05-11 00:45:44,530 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-05-11 00:45:44
+2016-05-11 00:45:44,531 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-05-11 00:45:45,694 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-05-11 00:45:45,720 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:45:45,725 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:45:45,737 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-05-11 00:45:46,232 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-11 00:45:46,293 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:45:46,998 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-05-11 00:45:46,998 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-05-11 00:45:46,999 INFO  crawl.InjectorJob - Injector: finished at 2016-05-11 00:45:46, elapsed: 00:00:02
+2016-05-11 00:48:37,527 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-05-11 00:48:37
+2016-05-11 00:48:37,527 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-05-11 00:48:37,527 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-05-11 00:48:37,527 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-05-11 00:48:37,527 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-05-11 00:48:37,527 INFO  crawl.GeneratorJob - GeneratorJob: topN: 20
+2016-05-11 00:48:37,768 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:48:37,769 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:48:37,769 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:48:38,634 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:48:38,639 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:48:39,664 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:48:39,664 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:48:39,665 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:48:39,716 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-11 00:48:39,872 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:48:40,060 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-05-11 00:48:40, time elapsed: 00:00:02
+2016-05-11 00:48:40,060 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1462898917-1278982654 containing 1 URLs
+2016-05-11 00:48:45,303 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 00:48:45
+2016-05-11 00:48:45,303 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 00:48:45,305 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 00:48:45,305 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 00:48:45,305 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 00:48:45,305 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 00:48:46,351 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:48:46,351 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:48:46,351 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:48:46,351 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:48:46,351 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:48:46,351 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:48:46,351 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:48:46,359 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:48:46,359 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:48:46,359 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:48:46,359 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:48:46,359 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:48:46,359 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:48:46,359 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:48:47,307 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:48:47,311 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:48:47,960 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 00:48:47,960 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 00:48:47,967 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2016-05-11 00:48:47,972 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm (queue crawl delay=5000ms)
+2016-05-11 00:48:47,972 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2016-05-11 00:48:47,972 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2016-05-11 00:48:47,973 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=1
+2016-05-11 00:48:47,973 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=1
+2016-05-11 00:48:47,973 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2016-05-11 00:48:47,973 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 00:48:47,973 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 00:48:47,974 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=2
+2016-05-11 00:48:47,974 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2016-05-11 00:48:47,978 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:48:47,978 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:48:47,978 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:48:47,978 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:48:47,978 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:48:47,978 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:48:47,978 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:48:49,029 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2016-05-11 00:48:52,974 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 102 102 kb/s, 0 URLs in 0 queues
+2016-05-11 00:48:52,975 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 00:48:52,992 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:48:53,583 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 00:48:53, time elapsed: 00:00:08
+2016-05-11 00:51:13,707 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 00:51:13
+2016-05-11 00:51:13,709 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 00:51:13,709 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 00:51:13,709 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 00:51:14,600 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:51:15,563 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:51:15,568 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:51:16,174 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:51:16,261 INFO  parse.ParserJob - Parsing https://ju.taobao.com/tg/forecast.htm
+2016-05-11 00:51:16,666 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-11 00:51:16,809 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:51:16,860 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 00:51:16,861 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 00:51:16, time elapsed: 00:00:03
+2016-05-11 00:52:18,551 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 00:52:18
+2016-05-11 00:52:18,552 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 00:52:18,552 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 00:52:18,553 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 00:52:19,566 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:52:20,556 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:52:20,561 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:52:21,223 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:52:21,319 INFO  parse.ParserJob - Parsing https://ju.taobao.com/tg/forecast.htm
+2016-05-11 00:52:21,665 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-11 00:52:21,795 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:52:21,874 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 00:52:21,875 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 00:52:21, time elapsed: 00:00:03
+2016-05-11 00:52:54,665 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2016-05-11 00:52:54
+2016-05-11 00:52:54,666 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2016-05-11 00:52:56,001 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:52:56,008 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:52:56,755 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:52:56,755 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:52:56,755 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:52:56,878 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:52:57,284 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2016-05-11 00:52:57, time elapsed: 00:00:02
+2016-05-11 00:53:09,522 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-05-11 00:53:09
+2016-05-11 00:53:09,522 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-05-11 00:53:09,522 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-05-11 00:53:09,522 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-05-11 00:53:09,523 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-05-11 00:53:09,523 INFO  crawl.GeneratorJob - GeneratorJob: topN: 20
+2016-05-11 00:53:09,759 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:53:09,759 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:53:09,759 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:53:10,631 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:53:10,636 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:53:11,554 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:53:11,554 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:53:11,554 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:53:11,590 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-11 00:53:11,896 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:53:12,056 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-05-11 00:53:12, time elapsed: 00:00:02
+2016-05-11 00:53:12,056 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1462899189-1731695506 containing 20 URLs
+2016-05-11 00:53:15,336 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 00:53:15
+2016-05-11 00:53:15,336 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 00:53:15,338 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 00:53:15,338 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 00:53:15,338 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 00:53:15,338 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 00:53:16,278 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:53:16,278 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:53:16,278 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:53:16,278 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:53:16,278 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:53:16,278 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:53:16,278 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:53:16,286 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:53:16,286 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:53:16,286 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:53:16,286 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:53:16,286 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:53:16,286 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:53:16,286 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:53:17,147 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:53:17,152 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:53:18,264 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 00:53:18,265 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 00:53:18,281 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=34000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,284 INFO  fetcher.FetcherJob - QueueFeeder finished: total 20 records. Hit by time limit :0
+2016-05-11 00:53:18,288 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:53:18,288 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:53:18,288 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:53:18,288 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:53:18,288 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:53:18,288 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:53:18,288 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:53:18,290 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 00:53:18,290 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 00:53:18,859 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=36000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,865 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=5000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,870 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=230000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,876 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=4000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,882 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=37000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,888 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=3000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,893 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=2000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,899 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=6000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,904 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=38000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,910 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=2 (queue crawl delay=5000ms)
+2016-05-11 00:53:18,915 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=15 (queue crawl delay=5000ms)
+2016-05-11 00:53:18,920 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=35000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,924 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=1000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,929 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=1 (queue crawl delay=5000ms)
+2016-05-11 00:53:18,933 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=3 (queue crawl delay=5000ms)
+2016-05-11 00:53:18,938 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=225000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,942 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=y (queue crawl delay=5000ms)
+2016-05-11 00:53:18,946 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=42000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,950 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=43000&yhq= (queue crawl delay=5000ms)
+2016-05-11 00:53:18,953 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=7
+2016-05-11 00:53:19,289 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=6
+2016-05-11 00:53:19,289 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=5
+2016-05-11 00:53:19,289 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=4
+2016-05-11 00:53:19,290 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=3
+2016-05-11 00:53:19,290 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=2
+2016-05-11 00:53:19,290 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2016-05-11 00:53:19,291 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=0
+2016-05-11 00:53:23,291 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 0 pages, 0 errors, 0.0 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-05-11 00:53:23,292 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 00:53:23,313 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:53:23,621 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 00:53:23, time elapsed: 00:00:08
+2016-05-11 00:54:46,770 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-05-11 00:54:46
+2016-05-11 00:54:46,771 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-05-11 00:54:48,922 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-05-11 00:54:48,960 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:54:48,968 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:54:48,987 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-05-11 00:54:49,477 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-11 00:54:49,548 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:54:50,234 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-05-11 00:54:50,234 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-05-11 00:54:50,235 INFO  crawl.InjectorJob - Injector: finished at 2016-05-11 00:54:50, elapsed: 00:00:03
+2016-05-11 00:54:53,165 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-05-11 00:54:53
+2016-05-11 00:54:53,166 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-05-11 00:54:53,166 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-05-11 00:54:53,166 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-05-11 00:54:53,166 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-05-11 00:54:53,166 INFO  crawl.GeneratorJob - GeneratorJob: topN: 20
+2016-05-11 00:54:53,428 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:54:53,428 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:54:53,428 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:54:54,280 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:54:54,285 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:54:55,194 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:54:55,194 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:54:55,194 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:54:55,242 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-11 00:54:55,388 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:54:55,714 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-05-11 00:54:55, time elapsed: 00:00:02
+2016-05-11 00:54:55,714 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1462899293-408901722 containing 1 URLs
+2016-05-11 00:54:59,057 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 00:54:59
+2016-05-11 00:54:59,058 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 00:54:59,059 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 00:54:59,059 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 00:54:59,059 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 00:54:59,059 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 00:55:00,080 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:00,080 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:00,080 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:00,080 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:00,080 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:00,080 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:00,080 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:00,088 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:00,089 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:00,089 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:00,089 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:00,089 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:00,089 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:00,089 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:00,924 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:55:00,929 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:55:01,877 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 00:55:01,877 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 00:55:01,885 INFO  fetcher.FetcherJob - QueueFeeder finished: total 1 records. Hit by time limit :0
+2016-05-11 00:55:01,892 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm (queue crawl delay=5000ms)
+2016-05-11 00:55:01,892 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=1
+2016-05-11 00:55:01,892 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2016-05-11 00:55:01,893 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=1
+2016-05-11 00:55:01,893 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=1
+2016-05-11 00:55:01,894 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=1
+2016-05-11 00:55:01,894 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 00:55:01,894 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 00:55:01,897 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2016-05-11 00:55:01,897 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2016-05-11 00:55:01,899 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:01,899 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:01,899 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:01,899 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:01,899 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:01,899 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:01,899 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:02,938 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2016-05-11 00:55:06,894 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 102 102 kb/s, 0 URLs in 0 queues
+2016-05-11 00:55:06,895 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 00:55:06,908 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:55:07,277 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 00:55:07, time elapsed: 00:00:08
+2016-05-11 00:55:11,624 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 00:55:11
+2016-05-11 00:55:11,626 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 00:55:11,626 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 00:55:11,626 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 00:55:12,547 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:55:13,532 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:55:13,537 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:55:14,100 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:55:14,184 INFO  parse.ParserJob - Parsing https://ju.taobao.com/tg/forecast.htm
+2016-05-11 00:55:14,486 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-11 00:55:14,627 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:55:14,823 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 00:55:14,824 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 00:55:14, time elapsed: 00:00:03
+2016-05-11 00:55:23,618 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2016-05-11 00:55:23
+2016-05-11 00:55:23,618 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2016-05-11 00:55:24,881 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:55:24,886 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:55:25,622 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:55:25,623 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:55:25,623 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:55:25,800 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:55:26,198 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2016-05-11 00:55:26, time elapsed: 00:00:02
+2016-05-11 00:55:30,681 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-05-11 00:55:30
+2016-05-11 00:55:30,682 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-05-11 00:55:30,682 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-05-11 00:55:30,682 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-05-11 00:55:30,682 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-05-11 00:55:30,682 INFO  crawl.GeneratorJob - GeneratorJob: topN: 20
+2016-05-11 00:55:30,970 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:55:30,971 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:55:30,971 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:55:31,994 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:55:31,999 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:55:32,680 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:55:32,680 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:55:32,680 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:55:32,711 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-11 00:55:33,062 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:55:33,303 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-05-11 00:55:33, time elapsed: 00:00:02
+2016-05-11 00:55:33,303 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1462899330-1389828225 containing 20 URLs
+2016-05-11 00:55:36,191 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 00:55:36
+2016-05-11 00:55:36,192 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 00:55:36,193 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 00:55:36,193 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 00:55:36,193 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 00:55:36,193 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 00:55:37,106 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:37,106 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:37,106 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:37,106 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:37,106 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:37,106 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:37,107 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:37,113 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:37,113 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:37,113 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:37,113 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:37,113 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:37,113 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:37,113 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:38,036 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:55:38,043 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:55:38,850 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 00:55:38,850 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 00:55:38,866 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=15 (queue crawl delay=5000ms)
+2016-05-11 00:55:38,867 INFO  fetcher.FetcherJob - QueueFeeder finished: total 20 records. Hit by time limit :0
+2016-05-11 00:55:38,872 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021493157&item_id=38282252625 (queue crawl delay=5000ms)
+2016-05-11 00:55:38,873 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:38,873 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:38,873 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:38,873 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:38,873 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:38,873 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:38,874 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:38,878 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 00:55:38,878 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 00:55:38,881 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:55:38,881 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:55:38,881 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:55:38,881 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:55:38,881 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:55:38,881 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:55:38,881 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:55:39,444 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=2 (queue crawl delay=5000ms)
+2016-05-11 00:55:39,448 INFO  fetcher.FetcherJob - fetching https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=1 (queue crawl delay=5000ms)
+2016-05-11 00:55:43,879 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 55 54 kb/s, 16 URLs in 1 queues
+2016-05-11 00:55:44,710 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022142356&item_id=530592274448 (queue crawl delay=5000ms)
+2016-05-11 00:55:48,880 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 2 pages, 0 errors, 0.2 0 pages/s, 54 53 kb/s, 15 URLs in 1 queues
+2016-05-11 00:55:49,954 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021263005&item_id=525609520285 (queue crawl delay=5000ms)
+2016-05-11 00:55:53,880 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 3 pages, 0 errors, 0.2 0 pages/s, 54 54 kb/s, 14 URLs in 1 queues
+2016-05-11 00:55:55,212 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021722005&item_id=18780052931 (queue crawl delay=5000ms)
+2016-05-11 00:55:58,881 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 4 pages, 0 errors, 0.2 0 pages/s, 53 52 kb/s, 13 URLs in 1 queues
+2016-05-11 00:56:00,461 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022287517&item_id=520670773032 (queue crawl delay=5000ms)
+2016-05-11 00:56:03,881 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 5 pages, 0 errors, 0.2 0 pages/s, 53 51 kb/s, 12 URLs in 1 queues
+2016-05-11 00:56:05,715 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022084689&item_id=522017905451 (queue crawl delay=5000ms)
+2016-05-11 00:56:08,882 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 6 pages, 0 errors, 0.2 0 pages/s, 53 55 kb/s, 11 URLs in 1 queues
+2016-05-11 00:56:11,011 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022106132&item_id=529293943272 (queue crawl delay=5000ms)
+2016-05-11 00:56:13,882 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 7 pages, 0 errors, 0.2 0 pages/s, 53 53 kb/s, 10 URLs in 1 queues
+2016-05-11 00:56:16,243 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021060007&item_id=42923334284 (queue crawl delay=5000ms)
+2016-05-11 00:56:18,883 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 8 pages, 0 errors, 0.2 0 pages/s, 53 51 kb/s, 9 URLs in 1 queues
+2016-05-11 00:56:21,495 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021661996&item_id=42633366678 (queue crawl delay=5000ms)
+2016-05-11 00:56:23,884 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 9 pages, 0 errors, 0.2 0 pages/s, 53 55 kb/s, 8 URLs in 1 queues
+2016-05-11 00:56:26,771 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021356376&item_id=45033294040 (queue crawl delay=5000ms)
+2016-05-11 00:56:28,884 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 10 pages, 0 errors, 0.2 0 pages/s, 53 55 kb/s, 7 URLs in 1 queues
+2016-05-11 00:56:31,996 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022178228&item_id=531115135635 (queue crawl delay=5000ms)
+2016-05-11 00:56:33,885 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 11 pages, 0 errors, 0.2 0 pages/s, 53 53 kb/s, 6 URLs in 1 queues
+2016-05-11 00:56:37,227 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021564659&item_id=526487805666 (queue crawl delay=5000ms)
+2016-05-11 00:56:38,885 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 12 pages, 0 errors, 0.2 0 pages/s, 53 54 kb/s, 5 URLs in 1 queues
+2016-05-11 00:56:42,471 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022150873&item_id=43441623061 (queue crawl delay=5000ms)
+2016-05-11 00:56:43,886 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 13 pages, 0 errors, 0.2 0 pages/s, 53 54 kb/s, 4 URLs in 1 queues
+2016-05-11 00:56:43,886 INFO  fetcher.FetcherJob - * queue: https://detail.ju.taobao.com
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899407703
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   now           = 1462899403887
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   0. https://detail.ju.taobao.com/home.htm?id=10000022054242&item_id=524777500519
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   1. https://detail.ju.taobao.com/home.htm?id=10000021660185&item_id=524420054297
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   2. https://detail.ju.taobao.com/home.htm?id=10000021854945&item_id=522660306816
+2016-05-11 00:56:43,887 INFO  fetcher.FetcherJob -   3. https://detail.ju.taobao.com/home.htm?id=10000021404367&item_id=521179530408
+2016-05-11 00:56:47,709 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000022054242&item_id=524777500519 (queue crawl delay=5000ms)
+2016-05-11 00:56:48,888 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 14 pages, 0 errors, 0.2 0 pages/s, 53 55 kb/s, 3 URLs in 1 queues
+2016-05-11 00:56:48,888 INFO  fetcher.FetcherJob - * queue: https://detail.ju.taobao.com
+2016-05-11 00:56:48,888 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:56:48,888 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899412934
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   now           = 1462899408889
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   0. https://detail.ju.taobao.com/home.htm?id=10000021660185&item_id=524420054297
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   1. https://detail.ju.taobao.com/home.htm?id=10000021854945&item_id=522660306816
+2016-05-11 00:56:48,889 INFO  fetcher.FetcherJob -   2. https://detail.ju.taobao.com/home.htm?id=10000021404367&item_id=521179530408
+2016-05-11 00:56:52,939 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021660185&item_id=524420054297 (queue crawl delay=5000ms)
+2016-05-11 00:56:53,889 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 15 pages, 0 errors, 0.2 0 pages/s, 53 54 kb/s, 2 URLs in 1 queues
+2016-05-11 00:56:53,890 INFO  fetcher.FetcherJob - * queue: https://detail.ju.taobao.com
+2016-05-11 00:56:53,890 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899418206
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   now           = 1462899413891
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   0. https://detail.ju.taobao.com/home.htm?id=10000021854945&item_id=522660306816
+2016-05-11 00:56:53,891 INFO  fetcher.FetcherJob -   1. https://detail.ju.taobao.com/home.htm?id=10000021404367&item_id=521179530408
+2016-05-11 00:56:58,215 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021854945&item_id=522660306816 (queue crawl delay=5000ms)
+2016-05-11 00:56:58,891 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 16 pages, 0 errors, 0.2 0 pages/s, 53 51 kb/s, 1 URLs in 1 queues
+2016-05-11 00:56:58,892 INFO  fetcher.FetcherJob - * queue: https://detail.ju.taobao.com
+2016-05-11 00:56:58,892 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:56:58,892 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:56:58,892 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:56:58,892 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:56:58,893 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899423443
+2016-05-11 00:56:58,893 INFO  fetcher.FetcherJob -   now           = 1462899418893
+2016-05-11 00:56:58,893 INFO  fetcher.FetcherJob -   0. https://detail.ju.taobao.com/home.htm?id=10000021404367&item_id=521179530408
+2016-05-11 00:57:03,450 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/home.htm?id=10000021404367&item_id=521179530408 (queue crawl delay=5000ms)
+2016-05-11 00:57:03,489 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=7
+2016-05-11 00:57:03,690 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=6
+2016-05-11 00:57:03,893 INFO  fetcher.FetcherJob - 6/6 spinwaiting/active, 17 pages, 0 errors, 0.2 0 pages/s, 53 55 kb/s, 0 URLs in 0 queues
+2016-05-11 00:57:03,902 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=3
+2016-05-11 00:57:03,902 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=3
+2016-05-11 00:57:03,902 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=3
+2016-05-11 00:57:03,903 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=2
+2016-05-11 00:57:03,906 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2016-05-11 00:57:03,907 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=0
+2016-05-11 00:57:08,893 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 17 pages, 0 errors, 0.2 0 pages/s, 50 0 kb/s, 0 URLs in 0 queues
+2016-05-11 00:57:08,893 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 00:57:08,918 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:57:09,360 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 00:57:09, time elapsed: 00:01:33
+2016-05-11 00:57:31,595 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 00:57:31
+2016-05-11 00:57:31,597 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 00:57:31,597 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 00:57:31,597 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 00:57:32,497 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:57:33,335 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:57:33,340 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:57:33,934 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 00:57:33,982 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021060007&item_id=42923334284
+2016-05-11 00:57:34,264 INFO  regex.RegexURLNormalizer - can't find rules for scope 'outlink', using default
+2016-05-11 00:57:34,339 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021263005&item_id=525609520285
+2016-05-11 00:57:34,475 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021356376&item_id=45033294040
+2016-05-11 00:57:34,576 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021404367&item_id=521179530408
+2016-05-11 00:57:34,637 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021493157&item_id=38282252625
+2016-05-11 00:57:34,700 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021564659&item_id=526487805666
+2016-05-11 00:57:34,769 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021660185&item_id=524420054297
+2016-05-11 00:57:34,832 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021661996&item_id=42633366678
+2016-05-11 00:57:34,894 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021722005&item_id=18780052931
+2016-05-11 00:57:34,939 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000021854945&item_id=522660306816
+2016-05-11 00:57:34,974 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022054242&item_id=524777500519
+2016-05-11 00:57:35,027 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022084689&item_id=522017905451
+2016-05-11 00:57:35,075 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022106132&item_id=529293943272
+2016-05-11 00:57:35,119 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022142356&item_id=530592274448
+2016-05-11 00:57:35,173 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022150873&item_id=43441623061
+2016-05-11 00:57:35,220 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022178228&item_id=531115135635
+2016-05-11 00:57:35,263 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/home.htm?id=10000022287517&item_id=520670773032
+2016-05-11 00:57:35,299 INFO  parse.ParserJob - Parsing https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=1
+2016-05-11 00:57:35,301 INFO  parse.ParserJob - Parsing https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=15
+2016-05-11 00:57:35,302 INFO  parse.ParserJob - Parsing https://ju.taobao.com/tg/forecast.htm?frontCatId=&yhq=&page=2
+2016-05-11 00:57:35,346 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:57:35,629 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 00:57:35,629 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 00:57:35, time elapsed: 00:00:04
+2016-05-11 00:57:57,542 INFO  crawl.DbUpdaterJob - DbUpdaterJob: starting at 2016-05-11 00:57:57
+2016-05-11 00:57:57,543 INFO  crawl.DbUpdaterJob - DbUpdaterJob: updatinging all
+2016-05-11 00:57:58,796 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:57:58,802 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:57:59,604 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:57:59,604 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:57:59,604 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:57:59,919 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:58:00,065 INFO  crawl.DbUpdaterJob - DbUpdaterJob: finished at 2016-05-11 00:58:00, time elapsed: 00:00:02
+2016-05-11 00:58:26,280 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-05-11 00:58:26
+2016-05-11 00:58:26,281 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-05-11 00:58:26,281 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-05-11 00:58:26,281 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-05-11 00:58:26,281 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-05-11 00:58:26,281 INFO  crawl.GeneratorJob - GeneratorJob: topN: 5
+2016-05-11 00:58:26,561 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:58:26,562 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:58:26,562 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:58:27,587 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:58:27,594 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:58:28,332 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 00:58:28,332 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 00:58:28,332 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 00:58:28,367 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-11 00:58:28,822 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:58:28,946 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-05-11 00:58:28, time elapsed: 00:00:02
+2016-05-11 00:58:28,947 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1462899506-1780437652 containing 5 URLs
+2016-05-11 00:58:35,319 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 00:58:35
+2016-05-11 00:58:35,319 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 00:58:35,320 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 00:58:35,320 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 00:58:35,321 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 00:58:35,321 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 00:58:36,360 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:58:36,361 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:58:36,361 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:58:36,361 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:58:36,361 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:58:36,361 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:58:36,361 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:58:36,369 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:58:36,369 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:58:36,369 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:58:36,369 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:58:36,369 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:58:36,369 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:58:36,369 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:58:37,328 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:58:37,332 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:58:38,103 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 00:58:38,104 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 00:58:38,113 INFO  fetcher.FetcherJob - QueueFeeder finished: total 5 records. Hit by time limit :0
+2016-05-11 00:58:38,116 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:58:38,118 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/ (queue crawl delay=5000ms)
+2016-05-11 00:58:38,120 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 00:58:38,120 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 00:58:38,125 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:58:38,125 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:58:38,125 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:58:38,125 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:58:38,125 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:58:38,125 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:58:38,125 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:58:38,131 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:58:38,132 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:58:38,132 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:58:38,132 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:58:38,132 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:58:38,132 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:58:38,132 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:58:38,645 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:58:38,646 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:58:38,649 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:58:38,650 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=7
+2016-05-11 00:58:38,653 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=6
+2016-05-11 00:58:39,119 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=5
+2016-05-11 00:58:39,119 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=4
+2016-05-11 00:58:39,119 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=3
+2016-05-11 00:58:39,120 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=2
+2016-05-11 00:58:39,120 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=0
+2016-05-11 00:58:39,120 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=0
+2016-05-11 00:58:43,120 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 0 pages, 0 errors, 0.0 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-05-11 00:58:43,121 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 00:58:43,136 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:58:43,607 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 00:58:43, time elapsed: 00:00:08
+2016-05-11 00:59:21,965 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 00:59:21
+2016-05-11 00:59:21,965 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 00:59:21,967 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 00:59:21,967 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 00:59:21,967 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 00:59:21,967 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 00:59:23,004 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:59:23,004 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:59:23,005 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:59:23,005 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:59:23,005 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:59:23,005 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:59:23,005 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:59:23,012 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:59:23,013 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:59:23,013 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:59:23,013 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:59:23,013 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:59:23,013 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:59:23,013 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:59:23,901 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 00:59:23,905 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 00:59:24,729 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 00:59:24,730 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 00:59:24,740 INFO  fetcher.FetcherJob - QueueFeeder finished: total 5 records. Hit by time limit :0
+2016-05-11 00:59:24,747 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:59:24,751 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/ (queue crawl delay=5000ms)
+2016-05-11 00:59:24,752 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 00:59:24,753 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 00:59:24,754 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:59:24,754 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:59:24,754 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:59:24,754 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:59:24,754 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:59:24,754 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:59:24,754 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:59:24,762 INFO  http.Http - http.proxy.host = null
+2016-05-11 00:59:24,762 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 00:59:24,762 INFO  http.Http - http.timeout = 10000
+2016-05-11 00:59:24,762 INFO  http.Http - http.content.limit = 65536
+2016-05-11 00:59:24,762 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 00:59:24,762 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 00:59:24,762 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 00:59:25,526 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2016-05-11 00:59:29,753 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 1 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 3 URLs in 1 queues
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899570516
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   now           = 1462899569754
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic
+2016-05-11 00:59:29,754 INFO  fetcher.FetcherJob -   1. https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic
+2016-05-11 00:59:29,755 INFO  fetcher.FetcherJob -   2. https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 00:59:30,541 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:59:34,755 INFO  fetcher.FetcherJob - 5/8 spinwaiting/active, 2 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 2 URLs in 1 queues
+2016-05-11 00:59:34,755 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899575716
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   now           = 1462899574756
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic
+2016-05-11 00:59:34,756 INFO  fetcher.FetcherJob -   1. https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 00:59:35,727 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:59:39,757 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 3 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 1 URLs in 1 queues
+2016-05-11 00:59:39,757 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 00:59:39,757 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 00:59:39,757 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 00:59:39,758 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 00:59:39,758 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 00:59:39,758 INFO  fetcher.FetcherJob -   nextFetchTime = 1462899580886
+2016-05-11 00:59:39,758 INFO  fetcher.FetcherJob -   now           = 1462899579758
+2016-05-11 00:59:39,758 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 00:59:40,900 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 00:59:41,099 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=7
+2016-05-11 00:59:41,257 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=5
+2016-05-11 00:59:41,257 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=5
+2016-05-11 00:59:41,257 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=4
+2016-05-11 00:59:41,258 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=3
+2016-05-11 00:59:41,259 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=2
+2016-05-11 00:59:41,259 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=1
+2016-05-11 00:59:41,318 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=0
+2016-05-11 00:59:44,758 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 4 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-05-11 00:59:44,759 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 00:59:44,777 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 00:59:45,167 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 00:59:45, time elapsed: 00:00:23
+2016-05-11 01:00:04,887 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 01:00:04
+2016-05-11 01:00:04,887 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 01:00:04,888 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 01:00:04,888 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 01:00:04,888 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 01:00:04,889 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 01:00:05,890 INFO  http.Http - http.proxy.host = null
+2016-05-11 01:00:05,891 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 01:00:05,891 INFO  http.Http - http.timeout = 10000
+2016-05-11 01:00:05,891 INFO  http.Http - http.content.limit = 65536
+2016-05-11 01:00:05,891 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 01:00:05,891 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 01:00:05,891 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 01:00:05,899 INFO  http.Http - http.proxy.host = null
+2016-05-11 01:00:05,899 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 01:00:05,899 INFO  http.Http - http.timeout = 10000
+2016-05-11 01:00:05,900 INFO  http.Http - http.content.limit = 65536
+2016-05-11 01:00:05,900 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 01:00:05,900 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 01:00:05,900 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 01:00:06,732 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 01:00:06,738 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 01:00:07,581 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 01:00:07,581 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 01:00:07,594 INFO  fetcher.FetcherJob - QueueFeeder finished: total 5 records. Hit by time limit :0
+2016-05-11 01:00:07,597 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 01:00:07,598 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/ (queue crawl delay=5000ms)
+2016-05-11 01:00:07,602 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 01:00:07,603 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 01:00:07,604 INFO  http.Http - http.proxy.host = null
+2016-05-11 01:00:07,604 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 01:00:07,604 INFO  http.Http - http.timeout = 10000
+2016-05-11 01:00:07,604 INFO  http.Http - http.content.limit = 65536
+2016-05-11 01:00:07,604 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 01:00:07,604 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 01:00:07,604 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 01:00:07,611 INFO  http.Http - http.proxy.host = null
+2016-05-11 01:00:07,611 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 01:00:07,611 INFO  http.Http - http.timeout = 10000
+2016-05-11 01:00:07,611 INFO  http.Http - http.content.limit = 65536
+2016-05-11 01:00:07,611 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 01:00:07,611 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 01:00:07,612 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 01:00:08,130 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 01:00:08,130 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 01:00:08,130 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 01:00:08,131 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=7
+2016-05-11 01:00:08,131 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=6
+2016-05-11 01:00:08,599 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=4
+2016-05-11 01:00:08,599 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=4
+2016-05-11 01:00:08,602 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=3
+2016-05-11 01:00:08,602 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=2
+2016-05-11 01:00:08,603 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=1
+2016-05-11 01:00:08,603 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=0
+2016-05-11 01:00:12,603 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 0 pages, 0 errors, 0.0 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-05-11 01:00:12,603 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 01:00:12,619 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 01:00:13,051 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 01:00:13, time elapsed: 00:00:08
+2016-05-11 01:18:39,059 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 01:18:39
+2016-05-11 01:18:39,060 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 01:18:39,060 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 01:18:39,060 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 01:18:39,894 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 01:18:40,940 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 01:18:40,947 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 01:18:41,651 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 01:18:41,733 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/
+2016-05-11 01:18:41,837 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 01:18:41,841 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic
+2016-05-11 01:18:41,844 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic
+2016-05-11 01:18:41,846 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic
+2016-05-11 01:18:41,868 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 01:18:42,246 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 01:18:42,247 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 01:18:42, time elapsed: 00:00:03
+2016-05-11 10:41:20,001 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-05-11 10:41:20
+2016-05-11 10:41:20,024 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-05-11 10:41:21,396 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-05-11 10:41:21,565 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 10:41:21,581 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 10:41:21,628 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-05-11 10:41:22,651 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-05-11 10:41:22,775 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 10:41:22,949 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-05-11 10:41:22,950 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-05-11 10:41:22,963 INFO  crawl.InjectorJob - Injector: finished at 2016-05-11 10:41:22, elapsed: 00:00:02
+2016-05-11 10:41:29,093 INFO  crawl.GeneratorJob - GeneratorJob: starting at 2016-05-11 10:41:29
+2016-05-11 10:41:29,093 INFO  crawl.GeneratorJob - GeneratorJob: Selecting best-scoring urls due for fetch.
+2016-05-11 10:41:29,093 INFO  crawl.GeneratorJob - GeneratorJob: starting
+2016-05-11 10:41:29,093 INFO  crawl.GeneratorJob - GeneratorJob: filtering: true
+2016-05-11 10:41:29,093 INFO  crawl.GeneratorJob - GeneratorJob: normalizing: true
+2016-05-11 10:41:29,094 INFO  crawl.GeneratorJob - GeneratorJob: topN: 8
+2016-05-11 10:41:29,351 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 10:41:29,351 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 10:41:29,351 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 10:41:30,312 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 10:41:30,318 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 10:41:31,189 INFO  crawl.FetchScheduleFactory - Using FetchSchedule impl: org.apache.nutch.crawl.DefaultFetchSchedule
+2016-05-11 10:41:31,189 INFO  crawl.AbstractFetchSchedule - defaultInterval=2592000
+2016-05-11 10:41:31,189 INFO  crawl.AbstractFetchSchedule - maxInterval=7776000
+2016-05-11 10:41:31,227 INFO  regex.RegexURLNormalizer - can't find rules for scope 'generate_host_count', using default
+2016-05-11 10:41:31,634 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 10:41:31,714 INFO  crawl.GeneratorJob - GeneratorJob: finished at 2016-05-11 10:41:31, time elapsed: 00:00:02
+2016-05-11 10:41:31,714 INFO  crawl.GeneratorJob - GeneratorJob: generated batch id: 1462934489-158053121 containing 8 URLs
+2016-05-11 10:41:36,682 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 10:41:36
+2016-05-11 10:41:36,682 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 10:41:36,683 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 10:41:36,684 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 10:41:36,684 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 10:41:36,684 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 10:41:38,042 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:41:38,042 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:41:38,042 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:41:38,042 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:41:38,042 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:41:38,042 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:41:38,042 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:41:38,051 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:41:38,051 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:41:38,051 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:41:38,051 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:41:38,052 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:41:38,052 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:41:38,052 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:41:38,852 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 10:41:38,856 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 10:41:39,896 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 10:41:39,896 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 10:41:39,955 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/ (queue crawl delay=5000ms)
+2016-05-11 10:41:39,955 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=43441623061&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:39,956 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 10:41:39,956 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 10:41:39,961 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:41:39,961 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:41:39,961 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:41:39,961 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:41:39,961 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:41:39,961 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:41:39,961 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:41:39,962 INFO  fetcher.FetcherJob - QueueFeeder finished: total 13 records. Hit by time limit :0
+2016-05-11 10:41:39,966 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:41:39,966 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:41:39,966 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:41:39,966 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:41:39,966 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:41:39,966 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:41:39,966 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:41:40,487 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,492 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,494 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=521179530408&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,497 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,498 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,499 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=520670773032&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,504 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=45033294040&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,508 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=522017905451&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,511 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,511 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,512 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:41:40,512 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=7
+2016-05-11 10:41:40,954 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=6
+2016-05-11 10:41:40,955 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=5
+2016-05-11 10:41:40,955 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=4
+2016-05-11 10:41:40,956 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=3
+2016-05-11 10:41:40,956 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=2
+2016-05-11 10:41:40,956 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=1
+2016-05-11 10:41:41,005 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2016-05-11 10:41:44,956 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 0 pages, 0 errors, 0.0 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-05-11 10:41:44,957 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 10:41:44,981 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 10:41:45,146 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 10:41:45, time elapsed: 00:00:08
+2016-05-11 10:43:02,279 INFO  fetcher.FetcherJob - FetcherJob: starting at 2016-05-11 10:43:02
+2016-05-11 10:43:02,280 INFO  fetcher.FetcherJob - FetcherJob: fetching all
+2016-05-11 10:43:02,281 INFO  fetcher.FetcherJob - FetcherJob: threads: 8
+2016-05-11 10:43:02,281 INFO  fetcher.FetcherJob - FetcherJob: parsing: false
+2016-05-11 10:43:02,281 INFO  fetcher.FetcherJob - FetcherJob: resuming: false
+2016-05-11 10:43:02,281 INFO  fetcher.FetcherJob - FetcherJob : timelimit set for : -1
+2016-05-11 10:43:03,385 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:43:03,385 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:43:03,385 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:43:03,385 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:43:03,385 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:43:03,385 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:43:03,385 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:43:03,401 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:43:03,401 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:43:03,401 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:43:03,401 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:43:03,401 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:43:03,401 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:43:03,401 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:43:04,241 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 10:43:04,245 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 10:43:05,281 INFO  fetcher.FetcherJob - Using queue mode : byHost
+2016-05-11 10:43:05,281 INFO  fetcher.FetcherJob - Fetcher: threads: 8
+2016-05-11 10:43:05,295 INFO  fetcher.FetcherJob - QueueFeeder finished: total 13 records. Hit by time limit :0
+2016-05-11 10:43:05,295 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:05,300 INFO  fetcher.FetcherJob - fetching https://detail.ju.taobao.com/ (queue crawl delay=5000ms)
+2016-05-11 10:43:05,302 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:43:05,302 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:43:05,302 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:43:05,302 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:43:05,302 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:43:05,302 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:43:05,302 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:43:05,305 INFO  fetcher.FetcherJob - Fetcher: throughput threshold: -1
+2016-05-11 10:43:05,305 INFO  fetcher.FetcherJob - Fetcher: throughput threshold sequence: 5
+2016-05-11 10:43:05,309 INFO  http.Http - http.proxy.host = null
+2016-05-11 10:43:05,309 INFO  http.Http - http.proxy.port = 8080
+2016-05-11 10:43:05,309 INFO  http.Http - http.timeout = 10000
+2016-05-11 10:43:05,309 INFO  http.Http - http.content.limit = 65536
+2016-05-11 10:43:05,309 INFO  http.Http - http.agent = My Nutch Spider/Nutch-2.3
+2016-05-11 10:43:05,309 INFO  http.Http - http.accept.language = ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3
+2016-05-11 10:43:05,310 INFO  http.Http - http.accept = text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+2016-05-11 10:43:06,040 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2016-05-11 10:43:06,044 INFO  regex.RegexURLNormalizer - can't find rules for scope 'fetcher', using default
+2016-05-11 10:43:10,305 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 2 pages, 0 errors, 0.4 0 pages/s, 0 0 kb/s, 11 URLs in 1 queues
+2016-05-11 10:43:11,050 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=521179530408&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:15,306 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 3 pages, 0 errors, 0.3 0 pages/s, 0 0 kb/s, 10 URLs in 1 queues
+2016-05-11 10:43:16,212 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:20,306 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 4 pages, 0 errors, 0.3 0 pages/s, 0 0 kb/s, 9 URLs in 1 queues
+2016-05-11 10:43:21,379 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=520670773032&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:25,307 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 5 pages, 0 errors, 0.3 0 pages/s, 0 0 kb/s, 8 URLs in 1 queues
+2016-05-11 10:43:26,540 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=43441623061&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:30,307 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 6 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 7 URLs in 1 queues
+2016-05-11 10:43:31,701 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:35,308 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 7 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 6 URLs in 1 queues
+2016-05-11 10:43:36,848 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=45033294040&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:40,309 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 8 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 5 URLs in 1 queues
+2016-05-11 10:43:42,002 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=522017905451&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:45,309 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 9 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 4 URLs in 1 queues
+2016-05-11 10:43:45,310 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 10:43:45,310 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 10:43:45,310 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 10:43:45,310 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 10:43:45,310 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 10:43:45,311 INFO  fetcher.FetcherJob -   nextFetchTime = 1462934627149
+2016-05-11 10:43:45,311 INFO  fetcher.FetcherJob -   now           = 1462934625311
+2016-05-11 10:43:45,311 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic
+2016-05-11 10:43:45,311 INFO  fetcher.FetcherJob -   1. https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic
+2016-05-11 10:43:45,311 INFO  fetcher.FetcherJob -   2. https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic
+2016-05-11 10:43:45,311 INFO  fetcher.FetcherJob -   3. https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 10:43:47,158 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:50,311 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 10 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 3 URLs in 1 queues
+2016-05-11 10:43:50,312 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 10:43:50,312 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 10:43:50,312 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 10:43:50,312 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 10:43:50,312 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 10:43:50,312 INFO  fetcher.FetcherJob -   nextFetchTime = 1462934632298
+2016-05-11 10:43:50,313 INFO  fetcher.FetcherJob -   now           = 1462934630313
+2016-05-11 10:43:50,313 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic
+2016-05-11 10:43:50,313 INFO  fetcher.FetcherJob -   1. https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic
+2016-05-11 10:43:50,313 INFO  fetcher.FetcherJob -   2. https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 10:43:52,305 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:43:55,313 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 11 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 2 URLs in 1 queues
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   nextFetchTime = 1462934637445
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   now           = 1462934635314
+2016-05-11 10:43:55,314 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic
+2016-05-11 10:43:55,315 INFO  fetcher.FetcherJob -   1. https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 10:43:57,453 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:44:00,315 INFO  fetcher.FetcherJob - 8/8 spinwaiting/active, 12 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 1 URLs in 1 queues
+2016-05-11 10:44:00,315 INFO  fetcher.FetcherJob - * queue: https://detail.tmall.com
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   maxThreads    = 1
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   inProgress    = 0
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   crawlDelay    = 5000
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   minCrawlDelay = 0
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   nextFetchTime = 1462934642591
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   now           = 1462934640316
+2016-05-11 10:44:00,316 INFO  fetcher.FetcherJob -   0. https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 10:44:02,599 INFO  fetcher.FetcherJob - fetching https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic (queue crawl delay=5000ms)
+2016-05-11 10:44:02,741 INFO  fetcher.FetcherJob - -finishing thread FetcherThread1, activeThreads=7
+2016-05-11 10:44:02,824 INFO  fetcher.FetcherJob - -finishing thread FetcherThread4, activeThreads=5
+2016-05-11 10:44:02,824 INFO  fetcher.FetcherJob - -finishing thread FetcherThread3, activeThreads=4
+2016-05-11 10:44:02,824 INFO  fetcher.FetcherJob - -finishing thread FetcherThread5, activeThreads=5
+2016-05-11 10:44:02,825 INFO  fetcher.FetcherJob - -finishing thread FetcherThread6, activeThreads=2
+2016-05-11 10:44:02,824 INFO  fetcher.FetcherJob - -finishing thread FetcherThread7, activeThreads=3
+2016-05-11 10:44:02,825 INFO  fetcher.FetcherJob - -finishing thread FetcherThread2, activeThreads=1
+2016-05-11 10:44:03,074 INFO  fetcher.FetcherJob - -finishing thread FetcherThread0, activeThreads=0
+2016-05-11 10:44:05,316 INFO  fetcher.FetcherJob - 0/0 spinwaiting/active, 13 pages, 0 errors, 0.2 0 pages/s, 0 0 kb/s, 0 URLs in 0 queues
+2016-05-11 10:44:05,317 INFO  fetcher.FetcherJob - -activeThreads=0
+2016-05-11 10:44:05,348 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 10:44:05,572 INFO  fetcher.FetcherJob - FetcherJob: finished at 2016-05-11 10:44:05, time elapsed: 00:01:03
+2016-05-11 10:45:38,900 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 10:45:38
+2016-05-11 10:45:38,901 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 10:45:38,901 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 10:45:38,901 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 10:45:39,922 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 10:45:40,881 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 10:45:40,886 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 10:45:41,588 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 10:45:41,684 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/
+2016-05-11 10:45:41,809 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 10:45:41,812 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic
+2016-05-11 10:45:41,815 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic
+2016-05-11 10:45:41,817 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic
+2016-05-11 10:45:41,820 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=43441623061&tracelog=jubuybigpic
+2016-05-11 10:45:41,823 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=45033294040&tracelog=jubuybigpic
+2016-05-11 10:45:41,826 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=520670773032&tracelog=jubuybigpic
+2016-05-11 10:45:41,828 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=521179530408&tracelog=jubuybigpic
+2016-05-11 10:45:41,831 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=522017905451&tracelog=jubuybigpic
+2016-05-11 10:45:41,833 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic
+2016-05-11 10:45:41,835 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 10:45:41,843 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic
+2016-05-11 10:45:41,849 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 10:45:42,216 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 10:45:42,218 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 10:45:42, time elapsed: 00:00:03
+2016-05-11 14:08:26,243 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 14:08:26
+2016-05-11 14:08:26,245 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 14:08:26,245 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 14:08:26,245 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 14:08:27,207 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 14:08:28,299 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 14:08:28,304 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 14:08:28,985 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 14:08:29,078 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/
+2016-05-11 14:08:29,211 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 14:08:29,214 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic
+2016-05-11 14:08:29,217 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic
+2016-05-11 14:08:29,219 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic
+2016-05-11 14:08:29,222 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=43441623061&tracelog=jubuybigpic
+2016-05-11 14:08:29,224 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=45033294040&tracelog=jubuybigpic
+2016-05-11 14:08:29,227 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=520670773032&tracelog=jubuybigpic
+2016-05-11 14:08:29,230 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=521179530408&tracelog=jubuybigpic
+2016-05-11 14:08:29,232 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=522017905451&tracelog=jubuybigpic
+2016-05-11 14:08:29,235 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic
+2016-05-11 14:08:29,238 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 14:08:29,248 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic
+2016-05-11 14:08:29,258 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 14:08:29,606 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 14:08:29,607 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 14:08:29, time elapsed: 00:00:03
+2016-05-11 14:20:40,449 INFO  parse.ParserJob - ParserJob: starting at 2016-05-11 14:20:40
+2016-05-11 14:20:40,451 INFO  parse.ParserJob - ParserJob: resuming:	false
+2016-05-11 14:20:40,451 INFO  parse.ParserJob - ParserJob: forced reparse:	false
+2016-05-11 14:20:40,451 INFO  parse.ParserJob - ParserJob: parsing all
+2016-05-11 14:20:41,341 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 14:20:42,269 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-05-11 14:20:42,274 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-05-11 14:20:42,909 INFO  crawl.SignatureFactory - Using Signature impl: org.apache.nutch.crawl.MD5Signature
+2016-05-11 14:20:43,016 INFO  parse.ParserJob - Parsing https://detail.ju.taobao.com/
+2016-05-11 14:20:43,134 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=18780052931&tracelog=jubuybigpic
+2016-05-11 14:20:43,137 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=38282252625&tracelog=jubuybigpic
+2016-05-11 14:20:43,139 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42633366678&tracelog=jubuybigpic
+2016-05-11 14:20:43,141 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=42923334284&tracelog=jubuybigpic
+2016-05-11 14:20:43,143 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=43441623061&tracelog=jubuybigpic
+2016-05-11 14:20:43,145 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=45033294040&tracelog=jubuybigpic
+2016-05-11 14:20:43,148 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=520670773032&tracelog=jubuybigpic
+2016-05-11 14:20:43,150 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=521179530408&tracelog=jubuybigpic
+2016-05-11 14:20:43,152 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=522017905451&tracelog=jubuybigpic
+2016-05-11 14:20:43,154 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=522660306816&tracelog=jubuybigpic
+2016-05-11 14:20:43,156 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=524420054297&tracelog=jubuybigpic
+2016-05-11 14:20:43,163 INFO  parse.ParserJob - Parsing https://detail.tmall.com/item.htm?id=531115135635&tracelog=jubuybigpic
+2016-05-11 14:20:43,170 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-05-11 14:20:43,580 INFO  parse.ParserJob - ParserJob: success
+2016-05-11 14:20:43,581 INFO  parse.ParserJob - ParserJob: finished at 2016-05-11 14:20:43, time elapsed: 00:00:03

@@ -1,0 +1,618 @@
+2016-04-19 15:30:10,716 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:30:10
+2016-04-19 15:30:10,717 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:30:12,015 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:30:13,251 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:30:13,364 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:30:13,372 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:30:13,391 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:30:13,882 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:30:14,244 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:30:14,245 WARN  mapred.LocalJobRunner - job_local306016244_0001
+java.lang.Exception: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 14
+((detail){0,1}*\.)*ju.taobao.com/
+              ^
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 14
+((detail){0,1}*\.)*ju.taobao.com/
+              ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.sequence(Pattern.java:2090)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.group0(Pattern.java:2854)
+	at java.util.regex.Pattern.sequence(Pattern.java:2018)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter$Rule.<init>(RegexURLFilter.java:93)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter.createRule(RegexURLFilter.java:73)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:231)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-19 15:30:14,742 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=[test1]inject /home/qyb/apache-nutch-2.3/urls/seed.txt, jobid=job_local306016244_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2016-04-19 15:32:16,581 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:32:16
+2016-04-19 15:32:16,581 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:32:17,588 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:32:17,706 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:32:17,739 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:32:17,744 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:32:17,756 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:32:18,106 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:32:18,247 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:32:18,255 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:32:18,992 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-04-19 15:32:18,992 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-04-19 15:32:18,993 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:32:18, elapsed: 00:00:02
+2016-04-19 15:32:29,332 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:32:29
+2016-04-19 15:32:29,332 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:32:30,329 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:32:30,430 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:32:30,460 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:32:30,465 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:32:30,477 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:32:30,893 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:32:31,096 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:32:31,097 WARN  mapred.LocalJobRunner - job_local1775572494_0001
+java.lang.Exception: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 14
+((detail){0,1}*\.)*ju.taobao.com/
+              ^
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 14
+((detail){0,1}*\.)*ju.taobao.com/
+              ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.sequence(Pattern.java:2090)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.group0(Pattern.java:2854)
+	at java.util.regex.Pattern.sequence(Pattern.java:2018)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter$Rule.<init>(RegexURLFilter.java:93)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter.createRule(RegexURLFilter.java:73)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:231)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-19 15:32:31,734 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=[test1]inject /home/qyb/apache-nutch-2.3/urls/seed.txt, jobid=job_local1775572494_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2016-04-19 15:32:44,745 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:32:44
+2016-04-19 15:32:44,745 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:32:45,765 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:32:45,850 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:32:45,880 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:32:45,886 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:32:45,901 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:32:46,250 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:32:46,416 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:32:46,416 WARN  mapred.LocalJobRunner - job_local1557071398_0001
+java.lang.Exception: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 13
+(detail){0,1}*ju.taobao.com/
+             ^
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 13
+(detail){0,1}*ju.taobao.com/
+             ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.sequence(Pattern.java:2090)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter$Rule.<init>(RegexURLFilter.java:93)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter.createRule(RegexURLFilter.java:73)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:231)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-19 15:32:47,139 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=[test1]inject /home/qyb/apache-nutch-2.3/urls/seed.txt, jobid=job_local1557071398_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2016-04-19 15:33:16,050 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:33:16
+2016-04-19 15:33:16,050 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:33:17,069 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:33:17,190 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:33:17,217 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:33:17,222 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:33:17,234 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:33:17,592 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:33:17,716 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:33:17,717 WARN  mapred.LocalJobRunner - job_local1603048977_0001
+java.lang.Exception: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 11
+detail{0,1}*ju.taobao.com/
+           ^
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 11
+detail{0,1}*ju.taobao.com/
+           ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.sequence(Pattern.java:2090)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter$Rule.<init>(RegexURLFilter.java:93)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter.createRule(RegexURLFilter.java:73)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:231)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-19 15:33:18,456 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=[test1]inject /home/qyb/apache-nutch-2.3/urls/seed.txt, jobid=job_local1603048977_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2016-04-19 15:34:43,265 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:34:43
+2016-04-19 15:34:43,265 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:34:44,243 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:34:44,347 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:34:44,405 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:34:44,413 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:34:44,428 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:34:44,786 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:34:44,899 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:34:44,900 WARN  mapred.LocalJobRunner - job_local1303430431_0001
+java.lang.Exception: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 13
+(detail){0,1}*ju.taobao.com/
+             ^
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 13
+(detail){0,1}*ju.taobao.com/
+             ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.sequence(Pattern.java:2090)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter$Rule.<init>(RegexURLFilter.java:93)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter.createRule(RegexURLFilter.java:73)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:231)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-19 15:34:45,667 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=[test1]inject /home/qyb/apache-nutch-2.3/urls/seed.txt, jobid=job_local1303430431_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2016-04-19 15:34:58,750 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:34:58
+2016-04-19 15:34:58,750 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:34:59,816 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:34:59,896 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:34:59,923 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:34:59,928 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:34:59,940 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:35:00,352 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:35:00,504 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:35:00,505 WARN  mapred.LocalJobRunner - job_local949569248_0001
+java.lang.Exception: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 14
+((detail){0,1}*\.)*ju.taobao.com/
+              ^
+	at org.apache.hadoop.mapred.LocalJobRunner$Job.run(LocalJobRunner.java:354)
+Caused by: java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 14
+((detail){0,1}*\.)*ju.taobao.com/
+              ^
+	at java.util.regex.Pattern.error(Pattern.java:1924)
+	at java.util.regex.Pattern.sequence(Pattern.java:2090)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.group0(Pattern.java:2854)
+	at java.util.regex.Pattern.sequence(Pattern.java:2018)
+	at java.util.regex.Pattern.expr(Pattern.java:1964)
+	at java.util.regex.Pattern.compile(Pattern.java:1665)
+	at java.util.regex.Pattern.<init>(Pattern.java:1337)
+	at java.util.regex.Pattern.compile(Pattern.java:1022)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter$Rule.<init>(RegexURLFilter.java:93)
+	at org.apache.nutch.urlfilter.regex.RegexURLFilter.createRule(RegexURLFilter.java:73)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.readRules(RegexURLFilterBase.java:231)
+	at org.apache.nutch.urlfilter.api.RegexURLFilterBase.setConf(RegexURLFilterBase.java:174)
+	at org.apache.nutch.plugin.Extension.getExtensionInstance(Extension.java:163)
+	at org.apache.nutch.net.URLFilters.<init>(URLFilters.java:59)
+	at org.apache.nutch.crawl.InjectorJob$UrlMapper.setup(InjectorJob.java:98)
+	at org.apache.hadoop.mapreduce.Mapper.run(Mapper.java:142)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:764)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:364)
+	at org.apache.hadoop.mapred.LocalJobRunner$Job$MapTaskRunnable.run(LocalJobRunner.java:223)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+2016-04-19 15:35:01,205 ERROR crawl.InjectorJob - InjectorJob: java.lang.RuntimeException: job failed: name=[test1]inject /home/qyb/apache-nutch-2.3/urls/seed.txt, jobid=job_local949569248_0001
+	at org.apache.nutch.util.NutchJob.waitForCompletion(NutchJob.java:54)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:231)
+	at org.apache.nutch.crawl.InjectorJob.inject(InjectorJob.java:252)
+	at org.apache.nutch.crawl.InjectorJob.run(InjectorJob.java:275)
+	at org.apache.hadoop.util.ToolRunner.run(ToolRunner.java:65)
+	at org.apache.nutch.crawl.InjectorJob.main(InjectorJob.java:284)
+
+2016-04-19 15:35:20,799 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:35:20
+2016-04-19 15:35:20,799 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:35:25,122 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:35:25
+2016-04-19 15:35:25,122 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:35:26,099 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:35:26,189 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:35:26,220 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:35:26,226 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:35:26,241 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:35:26,584 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:35:26,762 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:35:26,845 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:35:27,468 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:35:27,468 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:35:27,469 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:35:27, elapsed: 00:00:02
+2016-04-19 15:44:05,965 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:44:05
+2016-04-19 15:44:05,966 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:44:06,973 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:44:08,185 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:44:08,211 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:44:08,216 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:44:08,229 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:44:08,597 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:44:08,746 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:44:08,755 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:44:09,496 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-04-19 15:44:09,496 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-04-19 15:44:09,497 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:44:09, elapsed: 00:00:03
+2016-04-19 15:46:34,396 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:46:34
+2016-04-19 15:46:34,396 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:46:35,358 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:46:35,478 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:46:35,513 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:46:35,518 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:46:35,530 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:46:35,903 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:46:36,043 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:46:36,105 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:46:36,793 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:46:36,793 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:46:36,794 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:46:36, elapsed: 00:00:02
+2016-04-19 15:47:14,970 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:47:14
+2016-04-19 15:47:14,970 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:47:16,019 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:47:16,097 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:47:16,123 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:47:16,128 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:47:16,140 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:47:16,480 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:47:16,614 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:47:16,670 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:47:17,363 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:47:17,363 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:47:17,363 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:47:17, elapsed: 00:00:02
+2016-04-19 15:48:24,852 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:48:24
+2016-04-19 15:48:24,853 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:48:25,866 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:48:27,032 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:48:27,058 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:48:27,063 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:48:27,075 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:48:27,411 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:48:27,583 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:48:27,642 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:48:28,311 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:48:28,311 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:48:28,312 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:48:28, elapsed: 00:00:03
+2016-04-19 15:49:05,739 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:49:05
+2016-04-19 15:49:05,739 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:49:06,780 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:49:06,918 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:49:06,950 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:49:06,956 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:49:06,970 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:49:07,297 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:49:07,423 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:49:07,479 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:49:08,200 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:49:08,200 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:49:08,201 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:49:08, elapsed: 00:00:02
+2016-04-19 15:53:41,973 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:53:41
+2016-04-19 15:53:41,973 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:53:42,990 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:53:44,218 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:53:44,261 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:53:44,270 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:53:44,290 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:53:44,644 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:53:44,794 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:53:44,803 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:53:45,550 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-04-19 15:53:45,550 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-04-19 15:53:45,551 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:53:45, elapsed: 00:00:03
+2016-04-19 15:53:54,766 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:53:54
+2016-04-19 15:53:54,767 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:53:55,709 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:53:55,828 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:53:55,857 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:53:55,862 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:53:55,874 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:53:56,250 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:53:56,387 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:53:56,448 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:53:57,139 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:53:57,139 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:53:57,142 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:53:57, elapsed: 00:00:02
+2016-04-19 15:54:05,409 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:54:05
+2016-04-19 15:54:05,410 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:54:06,407 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:06,494 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:54:06,534 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:54:06,541 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:54:06,557 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:54:06,926 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:07,091 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:54:07,174 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:54:07,805 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:54:07,805 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:54:07,807 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:54:07, elapsed: 00:00:02
+2016-04-19 15:54:14,615 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:54:14
+2016-04-19 15:54:14,615 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:54:15,574 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:15,696 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:54:15,722 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:54:15,727 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:54:15,739 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:54:16,110 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:16,231 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:54:16,286 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:54:17,003 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:54:17,003 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:54:17,005 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:54:17, elapsed: 00:00:02
+2016-04-19 15:54:30,403 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:54:30
+2016-04-19 15:54:30,403 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:54:31,501 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:31,584 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:54:31,616 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:54:31,622 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:54:31,636 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:54:31,983 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:32,106 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:54:32,160 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:54:32,868 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:54:32,868 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:54:32,870 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:54:32, elapsed: 00:00:02
+2016-04-19 15:54:38,413 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:54:38
+2016-04-19 15:54:38,413 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:54:39,509 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:39,596 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:54:39,623 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:54:39,628 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:54:39,639 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:54:40,011 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:54:40,127 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:54:40,186 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:54:40,907 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:54:40,907 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:54:40,908 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:54:40, elapsed: 00:00:02
+2016-04-19 15:55:01,267 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:55:01
+2016-04-19 15:55:01,267 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:55:02,351 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:55:02,444 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:55:02,471 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:55:02,476 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:55:02,488 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:55:02,837 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:55:02,961 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:55:02,970 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:55:03,722 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-04-19 15:55:03,723 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-04-19 15:55:03,724 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:55:03, elapsed: 00:00:02
+2016-04-19 15:55:08,740 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:55:08
+2016-04-19 15:55:08,740 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:55:09,716 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:55:09,807 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:55:09,834 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:55:09,839 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:55:09,851 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:55:10,209 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:55:10,334 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:55:10,342 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:55:11,084 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 1
+2016-04-19 15:55:11,085 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 0
+2016-04-19 15:55:11,085 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:55:11, elapsed: 00:00:02
+2016-04-19 15:55:36,734 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:55:36
+2016-04-19 15:55:36,735 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:55:37,713 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:55:37,791 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:55:37,821 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:55:37,827 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:55:37,841 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:55:38,234 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:55:38,397 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:55:38,473 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:55:39,092 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:55:39,092 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:55:39,093 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:55:39, elapsed: 00:00:02
+2016-04-19 15:58:52,181 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:58:52
+2016-04-19 15:58:52,182 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:58:53,288 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:58:53,373 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:58:53,401 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:58:53,406 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:58:53,418 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:58:53,766 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:58:53,882 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:58:53,944 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:58:54,639 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:58:54,639 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:58:54,640 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:58:54, elapsed: 00:00:02
+2016-04-19 15:59:16,816 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 15:59:16
+2016-04-19 15:59:16,816 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 15:59:17,870 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:59:19,101 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 15:59:19,142 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 15:59:19,150 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 15:59:19,169 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 15:59:19,543 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 15:59:19,704 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 15:59:19,760 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 15:59:20,439 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 15:59:20,439 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 15:59:20,440 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 15:59:20, elapsed: 00:00:03
+2016-04-19 16:02:06,019 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:02:06
+2016-04-19 16:02:06,019 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:02:06,971 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:02:08,160 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:02:08,199 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:02:08,206 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:02:08,224 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:02:08,578 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:02:08,757 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:02:08,839 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:02:09,475 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:02:09,475 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:02:09,476 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:02:09, elapsed: 00:00:03
+2016-04-19 16:11:39,051 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:11:39
+2016-04-19 16:11:39,052 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:11:40,131 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:11:41,405 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:11:41,445 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:11:41,453 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:11:41,472 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:11:41,839 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:11:42,000 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:11:42,057 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:11:42,736 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:11:42,736 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:11:42,737 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:11:42, elapsed: 00:00:03
+2016-04-19 16:12:06,036 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:12:06
+2016-04-19 16:12:06,037 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:12:07,054 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:12:07,153 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:12:07,184 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:12:07,190 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:12:07,205 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:12:07,571 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:12:07,713 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:12:07,771 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:12:08,450 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:12:08,450 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:12:08,451 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:12:08, elapsed: 00:00:02
+2016-04-19 16:12:17,124 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:12:17
+2016-04-19 16:12:17,124 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:12:18,073 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:12:18,174 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:12:18,220 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:12:18,228 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:12:18,248 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:12:18,588 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:12:18,712 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:12:18,775 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:12:19,474 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:12:19,474 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:12:19,475 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:12:19, elapsed: 00:00:02
+2016-04-19 16:24:04,521 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:24:04
+2016-04-19 16:24:04,522 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:24:05,695 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:24:05,852 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:24:05,897 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:24:05,906 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:24:05,927 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:24:06,364 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:24:06,538 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:24:06,599 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:24:07,231 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:24:07,231 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:24:07,232 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:24:07, elapsed: 00:00:02
+2016-04-19 16:24:37,957 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:24:37
+2016-04-19 16:24:37,957 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:24:39,090 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:24:40,284 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:24:40,325 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:24:40,333 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:24:40,354 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:24:40,761 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:24:40,881 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:24:40,939 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:24:41,666 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:24:41,666 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:24:41,667 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:24:41, elapsed: 00:00:03
+2016-04-19 16:28:03,545 INFO  crawl.InjectorJob - InjectorJob: starting at 2016-04-19 16:28:03
+2016-04-19 16:28:03,545 INFO  crawl.InjectorJob - InjectorJob: Injecting urlDir: /home/qyb/apache-nutch-2.3/urls/seed.txt
+2016-04-19 16:28:04,508 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:28:05,698 INFO  crawl.InjectorJob - InjectorJob: Using class org.apache.gora.hbase.store.HBaseStore as the Gora storage class.
+2016-04-19 16:28:05,721 WARN  util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2016-04-19 16:28:05,726 WARN  mapred.JobClient - No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+2016-04-19 16:28:05,739 WARN  snappy.LoadSnappy - Snappy native library not loaded
+2016-04-19 16:28:06,112 WARN  store.HBaseStore - Mismatching schema's names. Mappingfile schema: 'webpage'. PersistentClass schema's name: 'test1_webpage'Assuming they are the same.
+2016-04-19 16:28:06,248 INFO  regex.RegexURLNormalizer - can't find rules for scope 'inject', using default
+2016-04-19 16:28:06,305 WARN  mapred.FileOutputCommitter - Output path is null in cleanup
+2016-04-19 16:28:07,001 INFO  crawl.InjectorJob - InjectorJob: total number of urls rejected by filters: 0
+2016-04-19 16:28:07,001 INFO  crawl.InjectorJob - InjectorJob: total number of urls injected after normalization and filtering: 1
+2016-04-19 16:28:07,002 INFO  crawl.InjectorJob - Injector: finished at 2016-04-19 16:28:07, elapsed: 00:00:03

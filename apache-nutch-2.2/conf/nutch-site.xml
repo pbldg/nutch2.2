@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+  <property>
+	<name>storage.data.store.class</name>
+  	<value>org.apache.gora.hbase.store.HBaseStore</value>
+	<description>Default class for storing data</description>
+  </property>
+    <property>  
+       <name>http.agent.name</name>  
+       <value>My Nutch Spider</value>  
+     </property>  
+    <property>  
+       <name>http.robots.agents</name>  
+       <value>none</value>  
+     </property>  
+    <property>  
+       <name>plugin.folders</name>  
+       <value>/home/qyb/apache-nutch-2.3/build/plugins</value>  
+     </property>
+     <property>
+        <name>http.accept.language</name>
+	    <value>ja-jp, en-us, zh-cn,en-gb,en;q=0.7,*;q=0.3</value>
+	    <description>
+			Value of the “Accept-Language” request header field.
+   				This allows selecting non-English language as default one to retrieve.
+   				It is a useful setting for search engines build for certain national group.
+		</description>
+     </property>  
+
+</configuration>

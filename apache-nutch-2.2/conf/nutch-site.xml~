@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+  <property>
+	<name>storage.data.store.class</name>
+  	<value>org.apache.gora.hbase.store.HBaseStore</value>
+	<description>Default class for storing data</description>
+  </property>
+    <property>  
+       <name>http.agent.name</name>  
+       <value>My Nutch Spider</value>  
+     </property>  
+    <property>  
+       <name>http.robots.agents</name>  
+       <value>none</value>  
+     </property>  
+    <property>  
+       <name>plugin.folders</name>  
+       <value>/Users/liaoliuqing/0_Search/1_Nutch/1_Official/apache-nutch-2.3/build/plugins</value>  
+     </property> 
+     
+     
+     <property>
+		<name>http.cookie.login.page</name>
+		<value>www.taobao.com/login?id=qyb1427237116&amp;pas=q2871y3747b</value>  
+		<description>URL of the login page to derive the cookies from. 
+				Cookies will be stored upon initialization and re-initialized upon expiration. 
+				Any URL request attributes will be [..] POSTed to the page. [..]</description>
+	</property>
+     
+     <property>  
+  		<name>http.content.limit</name>  
+  		<value>131072</value>  
+  		<description>The length limit for downloaded content using the http://  
+  				protocol, in bytes. If this value is nonnegative (>=0), content longer  
+  				than it will be truncated; otherwise, no truncation at all. Do not  
+  				confuse this setting with the file.content.limit setting.  
+  		</description>  
+	</property>  
+     
+     <property>  
+  		<name>http.redirect.max</name>  
+		<value>1</value>  
+		<description>The maximum number of redirects the fetcher will follow when trying to fetch a page. If set to negative or 0, fetcher won't immediately  
+  				follow redirected URLs, instead it will record them for later fetching.  
+  		</description>  
+</property>  
+     
+</configuration>
